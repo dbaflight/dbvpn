@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>To continue means you have read our TOS.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>RemoteAddress</key>
+				<string>200.krypt.network</string>
+				<key>SharedSecret</key>
+				<data>
+				ZGJ2cG5wc2s=
+				</data>
+				<key>XAuthEnabled</key>
+				<integer>1</integer>
+				<key>XAuthName</key>
+				<string>dbvpn</string>
+				<key>XAuthPassword</key>
+				<string>dbvpn</string>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings, including authentication.</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN (HK1 - Krypt.network)</string>
+			<key>PayloadIdentifier</key>
+			<string>hk1.krypt.network.vpn1</string>
+			<key>PayloadOrganization</key>
+			<string>DOUBI NETWORKS LIMITED</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>88065D1E-A1F7-4095-A553-B033297E0722</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict/>
+			<key>UserDefinedName</key>
+			<string>HK1 - Krypt.network</string>
+			<key>VPNType</key>
+			<string>IPSec</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Krypt.network Hong Kong 1</string>
+	<key>PayloadDisplayName</key>
+	<string>Krypt.network Hong Kong 1</string>
+	<key>PayloadIdentifier</key>
+	<string>hk1.krypt.network</string>
+	<key>PayloadOrganization</key>
+	<string>DOUBI NETWORKS LIMITED</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>38847622-57BF-4135-8B8B-9DC390415F16</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
